@@ -44,4 +44,10 @@ public class MainTest {
         String atbashEncryption = Main.getAtbashEncryption(a);
         assertEquals("9876543210", atbashEncryption);
     }
+    @Test
+    public void hej(){
+        String a ="hej";
+        String atbashEncryption=Main.getAtbashEncryption(a);
+        assertEquals("svq",atbashEncryption);
+    }
 }
